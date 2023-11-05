@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body { 
+            background-image: url(Prototipo/fundo-abstrato-com-design-baixo-poli.jpg);
+            background-repeat: repeat;
+            background-size: 150%;
+            width: 10%;
+        
+        }
+        .fundo{
+            border: 10px solid;
+            margin: 20%;
+            padding: 0%;
+            height: 3450px;
+            background-color: aliceblue;
+            width: 600%;
+            transform: translate(200px,20px);
+        }
+        .orgposicaotext{
+             transform: translate(300px,30px);
+        }
+         .orgposicaotext2{
+             transform: translate(260px,30px);
+        }
+         
+         .orgposicaotext3{
+             transform: translate(295px,30px);
+         }
+        ul{
+            margin: 0%;
+            padding: 0%;
+            list-style-type: none;
+            width: 150px;
+            transform: translate(50px, 20px);
+        }
+        ul li{
+            position: relative;
+        }
+        li ul{
+            position:absolute;
+            left:100px;
+            top:-20%;
+            display:none;
+        }
+        ul li a{
+            text-align: center;
+            display: block;
+            text-decoration: none;
+            color:white;
+            background-color:rgba(221, 0, 0, 0.1);
+            padding:5px;
+            border: 1px solid rgb(5, 38, 129, 0.3);
+            font-size: 25px;
+        }
+        ul li a:hover{
+            
+            font-weight:bold;
+            background: #2b5174;
+        }
+        li:hover ul{
+            display:block;
+        }
+        img{
+            width: 40%;
+            height: 40%;
+            transform: translate(70%, 10%);
+        }
+        p{
+            transform: translate(40%, 110%);
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 26px;
+        }
+        .logo{
+           width: 100px; 
+           transform: translate(1050px,-150px);             
+        }
+        .logotext{
+            transform: translate(1150px,-5px); 
+            color:white;
+            font-size: 26px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .logotexttwo{
+            transform: translate(1205px,-60px); 
+            color:rgb(255, 4, 4);
+            font-size: 26px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <div><br><br>
+       
+        <ul>
+            <li><a href="paginaapresenta%C3%A7ao.html">Inicio</a>
+                <ul>
+                    <li><a href="#">Sobre</a></li>
+                </ul>
+            </li>
+        </ul>
+        <div><h3 class="logotext">City </h3><h3 class="logotexttwo"> Shield</h3></div>
+        <img class="logo" src="Prototipo/zyro-image.png" alt="logodoapp">
+    </div>
+    <div class="fundo">
+    
+    <nav><img src="Prototipo/Inicio.png" alt="templatedatelainicial" ></nav>
+    <div><p>Tela Inicial</p></div>
+    <br><br>
+    <br><br>
+    
+    <div><img src="Prototipo/Mapa.png" alt="templatemapa"></div>
+    <div><p>Tela do Mapa</p></div>
+    <br><br><br><br>
+    <div><img src="Prototipo/Relatorio.png" alt="templaterelatorio"></div>
+    <div><p class="orgposicaotext">Tela do Relatório</p></div>
+    <br><br><br><br>
+    <div><img src="Prototipo/Recomendações.png" alt="templatedatelainicial"></div>
+    <div><p class="orgposicaotext2">Tela das Recomendações</p></div>
+    <br><br><br><br>
+    <div><img src="Prototipo/Feedback.png" alt="templatedatelainicial"></div>
+    <div><p class="orgposicaotext3">Tela do Feedback</p></div>
+    </div>
+</body>
+</html>
