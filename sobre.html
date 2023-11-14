@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body{
+            background-image: url(Prototipo/fundo-abstrato-com-design-baixo-poli.jpg);
+            background-repeat: repeat;
+            background-size: 150%;
+            width: 10%;
+        }
+
+        .fundo{
+            border: 10px solid rgb(4, 55, 100, 0.3);
+            margin: 4%;
+            padding: 0%;
+            height: 950px;
+            background-color: rgb(4, 55, 100, 0.3);
+            width: 560%;
+            transform: translate(250px,80px);
+            box-shadow: 0 5px 5px rgb(0, 40, 80);
+        }
+        ul{
+            margin: 0%;
+            padding: 0%;
+            list-style-type: none;
+            width: 150px;
+            transform: translateY(120%);
+            
+            
+        }
+       .efeitosombra{
+        box-shadow: 0 1px 3px  rgb(105, 105, 114);
+        }
+        ul li{
+            position: relative;
+        
+        }
+        li ul{
+            position:absolute;
+            left:150px;
+            top:25%;
+            display:none;
+        }
+        ul li a{
+            text-align: center;
+            display: block;
+            text-decoration: none;
+            color:white;
+            background-color:rgba(221, 0, 0, 0.1);
+            padding:5px;
+            border: 1px solid rgb(5, 38, 129, 0.3);
+            font-size: 25px;
+        }
+        ul li a:hover{
+            
+            font-weight:bold;
+            background: #2b5174;
+        }
+        li:hover ul{
+            display:block;
+        }
+        .submenu{
+            transform: translateY(-115%);
+            box-shadow: 0 2px 1px  rgb(94, 94, 102);
+        }
+        .conteudo{
+            color:white;
+            transform: translateX(0%);
+            text-wrap:rap;
+            font-size: 20px;
+            
+        }
+        .bordafundo{
+            border: 5px solid rgba(0, 45, 87, 0.8);
+            width: 600px;
+            height:250px;
+            background-color:rgba(0, 45, 87, 0.4);
+            transform: translate(12%, 44%);
+        }
+        .titulo{
+            text-align: center;
+            transform: translate(330%,200%);
+            text-wrap: nowrap;
+            font-size:45px;
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .subtitulo{
+            text-align: center;
+            transform: translate(420%,310%);
+            text-wrap: nowrap;
+            font-size:40px;
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .subtituloone{
+            text-align: center;
+            transform: translate(420%,310%);
+            text-wrap: nowrap;
+            font-size:40px;
+            color: red;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .menuimg{
+            box-shadow:  0 15px 10px rgba(0, 0, 0, 0.1);
+            transform:translate(10%, 40%); 
+        }
+        .menuimgfundo{
+            border: 0px solid rgb(247, 247, 247);
+            height: 170px;
+            width: 61px;
+            transform:translate(2050%, -30%); 
+            position:relative;
+            background-color: white;
+            
+        }
+    </style>
+</head>
+<body >
+    <header>
+        <ul>
+            <li><a class="efeitosombra" href="index.html">Inicio</a>
+                <ul>
+                    <li ><a class="submenu" href="sobre.html">Sobre</a></li>
+                </ul>
+            </li>
+        </ul>
+    <div class="menuimgfundo">
+        <a href="https://www.linkedin.com/in/tiago-de-jesus-ferreira-a6648b1b2" target="_blank" >
+            <img src="Prototipo/linkedin.png" alt="Logo do linkedin" height="50px" width="50px" class="menuimg">
+        </a>
+        <br>
+        <a href="https://thdejesusferreira@gmail.com" target="_blank">
+            <img src="Prototipo/emailfoto.png" alt="Logo do email" height="50px" width="50px" class="menuimg">
+        </a>
+   
+    </header>
+    <div class="titulo">Projeto Extensionista II</div>
+    <div class="subtitulo"><b>City</b> <b class="subtituloone">Shield</b> </div>
+    <div class="fundo">
+        <div class="bordafundo">
+            <div class="conteudo"><p>Como surgiu:</p>
+            <br>
+            <div class="conteudo">Em 2023 , Salvador, Bahia, ocupa a perturbadora 12ª posição na lista das cidades mais
+                 violentas do mundo, de acordo com o indicador de crimes da Numbeo. Diante esse triste cenário surgiu
+                a ideia de criar um projeto para auxiliar os orgãos publicos na proteção da comunidade local. </div>
+            </div>
+        </div>
+        <div class="bordafundo">
+            <div class="conteudo"><p>Cenario:</p>
+            <br>
+            <div class="conteudo"> Para retratar os resultados da pesquisa realizada pela  Numbeo,
+                foi desenvolvida uma pesquisa sobre a opinião popular a respeito da segurança pública na
+                 comunidade de Candeias, Bahia, região metropolitana de Salvador. o resultado obtido foi que a 
+                 violência também fazia parte das regiões mais proximas da capital.
+            </div>
+            </div>
+        </div>
+        <div class="bordafundo">
+            <div class="conteudo"><p>Projeto:</p>
+            <br>
+            <div class="conteudo"> Com base nas informações provenientes das pesquisas, foi possível compreender o contexto em que a comunidade se encontra. A partir dessa análise, surgiu o City Shield,
+                 um aplicativo projetado para auxiliar as organizações públicas
+                  em manter proteção dos cidadãos, integrando a comunidade
+                 aos orgãos públicos.
+
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
