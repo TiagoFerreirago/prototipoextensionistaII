@@ -4,8 +4,11 @@ Criar um projeto baseado nos Objetivos de Desenvolvimento Sustentável (ODS)
 No âmbito deste trabalho, busco apresentar o protótipo do aplicativo CityShield, uma iniciativa concebida para abordar as crescentes preocupações com a segurança pública na cidade de Candeias, Bahia. Abaixo, estar os principais objetivos que norteiam este projeto:
 
 -Mapear a região local para sinalizar os lugares mais predispostos a assaltos, furtos ou crimes graves.
+
 -Informa a população sobre os pontos mais perigosos, e fornecer orientações sobre os devidos cuidados a serem tomados.
+
 -Instruir a comunidade local sobre como se comportar e agir em situações de presença de crime.
+
 -Auxiliar a segurança pública com relatórios provenientes do mapeamento realizado, e com informações fornecidas pela comunidade local.
 
 ## Metodologia
