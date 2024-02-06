@@ -9,7 +9,7 @@ No âmbito deste trabalho, busco apresentar o protótipo do aplicativo CityShiel
 -Auxiliar a segurança pública com relatórios provenientes do mapeamento realizado, e com informações fornecidas pela comunidade local.
 
 ## Metodologia
-![Metodologia](https://github.com/TiagoFerreirago/Repositoryphoto/blob/main/categoria.png)
+![Metodologia](https://github.com/TiagoFerreirago/arqwork/blob/main/Captura%20de%20tela%202024-02-06%20171830.png)
 
 ## Template
 ## Tela inicial
