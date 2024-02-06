@@ -19,13 +19,13 @@ No âmbito deste trabalho, busco apresentar o protótipo do aplicativo CityShiel
 ![mapa](https://github.com/TiagoFerreirago/arqwork/blob/main/Mapa.png)
 
 ## Relatório
-![Relatorio](https://github.com/TiagoFerreirago/Repositoryphoto/blob/main/dslist-model.png)
+![Relatorio](https://github.com/TiagoFerreirago/arqwork/blob/main/Relatorio.png)
 
 ## Recomendações
 ![Recomendacoes](https://github.com/TiagoFerreirago/arqwork/blob/main/Recomenda%C3%A7%C3%B5es.png)
 
 ## Feedback
-![Feedback](https://github.com/TiagoFerreirago/arqwork/blob/main/Recomenda%C3%A7%C3%B5es.png)
+![Feedback](https://github.com/TiagoFerreirago/arqwork/blob/main/Feedback.png)
 
 # Tecnologias utilizadas
 ## Front end
